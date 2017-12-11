@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+	
+
+
+/* 是否支持3d ----------- */  
+@media all and (transform-3d), (-webkit-transform-3d) {
+}
+@media only screen and (max-width : 356px){
+
+}
+@media only screen and (min-width : 356px) and (max-width : 768px){  
+/* Styles */
+
+}
+/* 屏幕 (portrait and landscape) ----------- */  
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+/* Styles */  
+    
+    
+}
+/* iPads (landscape) ----------- 横版*/  
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {  
+/* Styles */  
+   
+}   
+/* iPads (portrait) ----------- 竖版*/  
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {   
+/* Styles */ 
+  
+}
+
+    /* Desktops and laptops ----------- */
+@media only screen and (min-width : 1200px) {
+    /* Styles */
+
+}  
+/* 只支持IE6,7,8 */
+@media \0screen\,screen\9 and (min-width : 1200px){
+
+}
+/* Large screens ----------- */  
+@media only screen and (min-width : 1824px) {  
+/* Styles */  
+	
+
+}    
+/* iPhone 4 ----------- */  
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {  
+/* Styles */  
+}
+/* iPhone 5 ----------- */  
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+}

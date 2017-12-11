@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+body{
+	font-size:12px;
+	font-family: '宋体';
+	margin:0 auto;
+	color: #666;
+	background-color: #fff;
+	overflow:visible;
+}
+
+kbd {
+	float:right; 
+	padding-right:10px;
+	white-space: nowrap;
+} 
+
+pre {
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+} 
+a {
+	color: #999;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+form {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style-type: none;
+	list-style-image: none;
+}
+a img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+a:link{text-decoration:none;} /*点击前 */
+a:visited{text-decoration:none;} /*点击过的 */
+
+
+.mianBj{ width:1100px;  height:auto !important; height:200px; min-height:200px; margin:0 auto;}
+.tophuan{ width:1100px; height:400px; position:relative;  }
+.tophuannei{position: absolute; left: 0px; top: 0px; width:1100px; height:400px; overflow: hidden;}
+.tophuannei img{ width:1100px; height:371px;}
+.tophuanul{ width:1100px; height:276px; position:absolute; bottom:0px; background-image:url(mainindexbj.png);}
+.tophuanul_divover{ width:60px; height:35px; position:absolute; left:10px; top:30px; border: solid 3px #CC5E61; cursor:pointer }
+.tophuanul_divout { width:60px; height:35px; position:absolute; border: solid 3px #666; cursor:pointer }
+.tophuanul img{ width:60px; height:35px;}
+.toplogo { width:261px; height:76px; background-image:url(logo.png); position:absolute; z-index:7; left:9px; }
+.navig{ width:780px; height:75px; position:absolute; top:15px; left:300px; z-index:7;overflow:hidden; background-image:url(mainnavig.png) }
+.navig ul { position:absolute; top:20px; left:50px; font-size:14px; font-weight:bold}
+.navig ul li { width:70px; height:14px; float:left; margin-left:8px; }
+.navig ul li a{ color:#CF9391}
+.navig ul li a:hover { 	color: #fff;}
+.topcall { width:273px; height:151px; position:absolute; z-index:7; background-image:url(call.png);top:240px; left:804px; overflow:hidden; }
+.topcalldiv1{ width:155px; height:100px; float:left; margin-left:93px; margin-top:26px; display:inline}
+.topcalldiv1_1{ width:155px; height:25px; line-height:20px; font-weight:bold; font-size:16px; color:#7F6777}
+.topcalldiv1_2{ width:155px; height:38px; line-height:20px; font-weight:bold; font-size:16px; color:#666}
+.topcalldiv1_3{ width:155px; height:20px; line-height:20px; font-weight:bold; font-size:16px; color:#FC6475}
+.topcalldiv1_4{ width:155px;  line-height:20px; font-weight:bold; font-size:12px; color:#666}
+
+
+
+.mianCenter{width:1100px;  height:auto !important; height:200px; min-height:200px; margin:0 auto;}
+.mianCentergedang{width:1100px;  height:10px; font-size:0; margin:0 auto;}
+.mianCenter_1{width:1100px;  height:300px; margin:0 auto;  overflow:hidden}
+.mianCenter_1_left {width:715px;  height:300px; float:left;  overflow:hidden}
+.mianCenter_1_left_top {width:715px;  height:40px; float:left;  background-image:url(biaotilan.png); background-repeat:no-repeat; background-position:left bottom;overflow:hidden;}
+.mianCenter_1_left_top span{ float:left; margin-left:10px; color:#85766F; font-size:14px; font-weight:bold; display:inline}
+.mianCenter_1_left_more{ width:55px; height:17px; float:right; margin-top:5px; margin-right:5px;}
+.mianCenter_1_left_center{ width:700px; height:250px; float:left; margin-left:9px;}
+.mianCenter_1_left_center img { width:200px; height:250px; float:left}
+.mianCenter_1_left_center div { width:490px; height:250px; float:left; margin-left:10px; overflow:hidden; color:#000; line-height:20px;}
+.mianCenter_1_right{width:361px;  height:300px; float:right; margin-right:9px;  overflow:hidden}
+
+.mianCenter_2{width:1100px;  height:300px; margin:0 auto;  overflow:hidden}
+.mianCenter_2_fenlei{ width:366px; height:300px; float:left; background-color:#FFF}
+.mianCenter_2_fenlei1{ width:367px; height:300px; float:left; background-color:#FFF}
+.mianCenter_2_fenlei_top {width:366px;  height:40px; float:left;  background-image:url(biaotilanmin.png); background-repeat:no-repeat; background-position:left bottom;overflow:hidden;}
+.mianCenter_2_fenlei_top span{ float:left; margin-left:10px; color:#85766F; font-size:14px; font-weight:bold; display:inline}
+.mianCenter_2_fenlei_more{ width:55px; height:17px; float:right; margin-top:5px; margin-right:10px;}
+.mianCenter_2 ul{ float:left; margin-left:20px;_margin-left:10px;  display:inline }
+.mianCenter_2 ul li{ list-style:disc;_list-style:none; width:325px; height:30px; line-height:30px; }
+.mianCenter_2 a{_float:left; width:250px; overflow: hidden; color:#000}
+.mianCenter_2 a:hover{color:#FC756E}
+
+.mianCenter_3{width:1100px;  height:300px; margin:0 auto;  overflow:hidden}
+.mianCenter_3_left {width:715px;  height:300px; float:left;  overflow:hidden}
+.mianCenter_3_left_top {width:715px;  height:40px; float:left;  background-image:url(biaotilan.png); background-repeat:no-repeat; background-position:left bottom;overflow:hidden;}
+.mianCenter_3_left_top span{ float:left; margin-left:10px; color:#85766F; font-size:14px; font-weight:bold; display:inline}
+.mianCenter_3_left_more{ width:55px; height:17px; float:right; margin-top:5px; margin-right:5px;}
+.mianCenter_3_left_center{ width:700px; height:250px; float:left; margin-left:9px;}
+.mianCenter_3_left_center li{float:left;margin-right:7px;display:inline;width:220px;text-align:center;line-height:19px}
+.mianCenter_3_left_center li img{width:200px;height:210px;padding:5px;border:solid 1px #ddd;}
+.mianCenter_3_left_center li a{color:#000}
+.mianCenter_3_left_center li a:hover{color:#FC756E}
+
+.mianCenter_3_right{width:361px;  height:300px; float:right; margin-right:9px; overflow:hidden}
+.mianCenter_3_right_top {width:366px;  height:40px; float:left;  background-image:url(biaotilanmin.png); background-repeat:no-repeat; background-position:left bottom;overflow:hidden;}
+.mianCenter_3_right_top span{ float:left; margin-left:10px; color:#85766F; font-size:14px; font-weight:bold; display:inline}
+.mianCenter_3_right_more{ width:55px; height:17px; float:right; margin-top:5px; margin-right:10px;}
+.mianCenter_3_right_lianxi{ width:340px; height:240px; float:left; margin-left:6px; overflow:hidden; font-size:16px; color:#000; line-height:30px; font-weight:bold}
+
+.maindb{ width:1100px; height:100px;margin:0 auto; font-size:12px;color:#000;text-align:center;line-height:32px; background-image:url(biaotilan.png); background-repeat:no-repeat; background-position: center top;overflow:hidden;}
+.maindb a{color:#666}
+.maindb a:hover{color:#FC756E}
+
+
+

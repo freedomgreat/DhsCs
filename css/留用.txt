@@ -1,0 +1,22 @@
+/* 
+#loading_svg{}
+.loading_svg_n{}
+#path{stroke-dasharray: 265.07470703125px, 265.07470703125px; stroke-dashoffset: 0px;}
+@keyframes dash{
+    0%{
+    stroke-dashoffset: 265.07; 这里是svg图形中素描线长度，可以使用js获取 
+    }
+    100%{
+    stroke-dashoffset: 265.07;
+    }
+}
+支持chrome浏览器
+@-webkit-keyframes dash{
+    0%{
+    stroke-dashoffset: 265.07; 这里是svg图形中素描线长度，可以使用js获取 
+    }
+    100%{
+    stroke-dashoffset: 265.07;
+    }
+}
+*/
